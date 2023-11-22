@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "@appointedd/ui-programming-challenge",
+  "version": "0.0.0-development",
+  "description": "UI programming challenge for Appointedd",
+  "author": {
+    "name": "Geraint Guan",
+    "email": "geraint@appointedd.com"
+  },
+  "volta": {
+    "node": "21.2.0",
+    "npm": "10.2.4"
+  }
+}

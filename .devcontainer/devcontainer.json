@@ -1,0 +1,9 @@
+{
+  "name": "Appointedd UI Programming Challenge",
+  "runArgs": ["--init"],
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "npm --prefix api install",
+  "remoteUser": "node"
+}
