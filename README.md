@@ -5,6 +5,7 @@ You've been given a [tRPC](https://trpc.io) back-end for a simple prototype of a
 - As a user I can see the bookings in a list view that sorted by the most recent booking at the top.
 - As a user for each booking in the list view, I can see all of the details for that booking.
 - As a user I can filter the bookings in a list view by the number of customers on a booking.
+- As a user I can select a time zone from a simple dropdown to view the times of the bookings in the list view in the selected time zone.
 
 There are no restrictions other than:
 
