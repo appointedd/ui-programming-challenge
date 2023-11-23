@@ -12,15 +12,15 @@ There are no restrictions other than:
 - Your UI must be built with the React framework.
 - Your UI must be built with TypeScript.
 
-Please submit your solution either as a zip file containing your repository's code or a link to a publicly accessible repository with your code.
+Please submit your solution either as a zip file containing your repository's code or a link to a publicly accessible repository with your code. Any supplemental notes can be included in your email, the `README.md` file in your repository, or as comments in your code.
 
 ## Requirements
 
-In order to work on this programming challenge you'll need Node.js installed. I recommend at least the latest LTS version which at the time of writing is **21.2.0**.
+In order to work on this programming challenge you'll need [Node.js](https://nodejs.org/en/) installed. I recommend at least the latest LTS version which at the time of writing is **21.2.0**.
 
-### Alternative: GitHub CodeSpaces
+### Alternative: GitHub Codespaces
 
-If you'd prefer to not install anything on your machine, this repository has been configured to support [GitHub Codespaces](https://github.com/features/codespaces) which will spin up a development environment along with a browser based version of VSCode in the cloud. You can do this by selecting the green "Code" button and choosing the Codespaces tab, then choosing New codespace on either this code repository or your own fork of this code repository.
+If you'd prefer to not install anything on your machine, this repository has been configured to support [GitHub Codespaces](https://github.com/features/codespaces) which will spin up a development environment along with a browser based version of VSCode in the cloud. You can do this by selecting the green **Code** button and choosing the **Codespaces** tab, then choosing **New codespace** on either this code repository or your own fork of this code repository.
 
 ## Running the API server
 
