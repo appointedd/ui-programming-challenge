@@ -2,7 +2,7 @@ import { initTRPC } from "@trpc/server";
 import { CreateFastifyContextOptions } from "@trpc/server/adapters/fastify";
 import superjson from "superjson";
 import Zod from "zod";
-import { bookings } from "../data/bookings.ts";
+import { bookings } from "../data/bookings";
 
 const t = initTRPC.create({
   transformer: superjson,
