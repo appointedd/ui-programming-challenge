@@ -24,7 +24,7 @@ server.get("/trpc-panel", async (req, res) => {
   res.type("text/html");
 
   return renderTrpcPanel(router, {
-    url: `http://${req.headers.host ?? "127.0.0.1:3000"}/trpc`,
+    url: `${req.headers["x-forwarded-scheme"] ?? "http"}://${req.headers["x-forwarded-host"] ?? req.headers.host ?? "127.0.0.1:3000"}/trpc`,
     transformer: "superjson",
   });
 });
