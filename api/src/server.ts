@@ -20,11 +20,11 @@ server.register(fastifyTRPCPlugin, {
   },
 });
 
-server.get("/trpc-panel", async (_, res) => {
+server.get("/trpc-panel", async (req, res) => {
   res.type("text/html");
 
   return renderTrpcPanel(router, {
-    url: "http://127.0.0.1:3000/trpc",
+    url: `http://${req.headers.host ?? "127.0.0.1:3000"}/trpc`,
     transformer: "superjson",
   });
 });
